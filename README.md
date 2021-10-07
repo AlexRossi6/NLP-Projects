@@ -1,5 +1,5 @@
 #Combinatorial Decision Making and Optimization - The Present Wrapping Problem (PWP)
-### Marco Buiani & Daniele Verì
+### Alex Rossi & Pietro Obbiso
 
 **Instructions for launching:**
 
