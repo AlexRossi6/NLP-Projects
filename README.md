@@ -1,22 +1,13 @@
-#Combinatorial Decision Making and Optimization - The Present Wrapping Problem (PWP)
-### Alex Rossi & Pietro Obbiso
-
-**Instructions for launching:**
-
-### CP in MiniZinc [report](cp/report.pdf)
-
-run `cp_solver.mzn` from the Minizinc IDE,
-.dzn converted instances are provided inside the `cp/instances/` folder
-
-### SMT in Z3:  [report](smt/report.pdf)
-. `python3 smt/src/smt_solver.py smt/instances/<instance.txt>` produces output to the terminal
-
-. `python3 smt/src/smt_solver.py smt/instances/<instance.txt> -o` creates output file in the same folder as input
-
-. `python3 smt/src/smt_solver.py smt/instances/<instance.txt> --allow_rotations` allows rotation of each present
-
-. `python3 smt/src/smt_solver.py smt/instances/<instance.txt> -v` produces a png image of the solution (requires python pillow)
+# Combinatorial Decision Making and Optimization - The Present Wrapping Problem (PWP)
+## Alex Rossi & Pietro Obbiso
 
 
-### SAT in Z3:  [report](sat/report.pdf)
-. `python3 sat/src/sat_solver.py sat/instances/<instance.txt>` produces output to the terminal
+### CP instructions:
+
+run CP/src/CP.mzn or CP/src/CP_rotation.mzn from Minizinc and use the instances located in CP/src/input_mzn/....mzn
+
+### SMT instructions
+run the python notebook located in SMT/src/SMT.ipynb; choose the instances to solve in the second cell by changing the first row: inputs/....txt 
+
+### Output check
+For chec
